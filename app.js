@@ -13,8 +13,13 @@
 // "(XXX) XXX-XXXX". (10 taškų)
 
 //1
+console.log(`-----------1`);
 let a = 10
 let b = 1
 console.log(a === b ? `Lygus` : a > b ? a : b);
 
 //2
+console.log(`-----------2`);
+for (let i = 1; i <= 10; i++){
+    console.log(i);
+}
