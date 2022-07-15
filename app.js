@@ -55,7 +55,7 @@ console.log(count);
 console.log(`-----------8`);
 // function lygineSuma (a, b) {
 // (typeof a === `number` && typeof b === `number` && ((a + b) % 2) === 0 ) ? a + b : (typeof a === `object` && typeof b === `object` && ((a.length + b.length) % 2) === 0) ? a.length + b.length : `suma nelyginė`;
-// } KODEL NEVEIKIA ???? ^^^^^^^^^^
+// } KODEL NEVEIKIA K**** B*** ???? ^^^^^^^^^^
 function lygineSuma(a,b) {
     if (typeof a === `number` && typeof b === `number` && ((a + b) % 2) === 0) {
         return a + b
@@ -65,7 +65,7 @@ function lygineSuma(a,b) {
         return `suma nelygine`
     }
 }
-console.log(lygineSuma(5, 5));
+console.log(lygineSuma([5, 2, 3], [2, 8, 9]));
 
 // 9. Parašyti funkciją pirminisSkaicius. Funkcija turi vieną kintamąjį. Turi būti patikrinimas, kad kintamasis yra skaičius. Funkcija turi grąžinti ar pateiktas skaičius yra pirminis( pirminis
 // skaičius yra tas, kuris dalinasi tik iš savęs ir tik iš vieneto be liekanos.) (10 taškų)
